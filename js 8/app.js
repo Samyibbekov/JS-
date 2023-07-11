@@ -67,7 +67,8 @@ document.querySelector('.addBtn').onclick = function(){
       <button class="delete">Delete</button>
       </div>
       `
-      document.querySelector('input').value = '-  Будет 6 каких-то загадок, у каждой загадки рядом будет находиться кнопка «показать ответ», при клике на нее рядом с загадкой должен появиться правильный ответ, а кнопка поменяться на «скрыть ответ». При нажатии на «скрыть ответ» правильный ответ исчезает и кнопка снова становится «показать ответ». Хорошая практика будет для работы с toggle)'
+      document.querySelector('input').value 
+      
       //Delete
       //parentNode.remove()
  let delete_task = document.querySelectorAll('.delete')
@@ -88,5 +89,12 @@ for(let i = 0; i < tasks.length; i++){
  
 }
 //1.git --version
-//2.git config --global user.mname"Samyibbekov"
-//3.git config --global user.email "akzholbeksamyibbekov@gmail.com "
+//2.git config --global user.name"Samyibbekov"
+//3.git config --global user.email "akzholbeksamyibbekov@gmail.com"
+//1 git init
+//2 git add .
+//3.git status
+//4.git commit -m "Файдын аты"
+//5.git remote add origin - ссылка
+//6.git branch 
+//7.git push -u origin main
